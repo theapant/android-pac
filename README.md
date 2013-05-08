@@ -14,7 +14,8 @@ To sync up:
 
 Then to build:
 
-    ./build-pac.sh ancora_tmo
+    ./build-pac.sh ancora_tmo       *for Galaxy Exhibit 4g
+    ./build-pac.sh ancora           *for Galaxy Wonder
 
 You need help while compiling for your Device?
 You get them in our official IRC Channel:
