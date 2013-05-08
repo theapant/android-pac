@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/theapant/android.git -b cm-10.1
+    repo init -u git://github.com/theapant/android-pac.git -b cm-10.1
 
 To sync up:
 
