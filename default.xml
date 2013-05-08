@@ -393,7 +393,7 @@
   <project path="packages/inputmethods/LatinIME" name="PAC-man/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
-  <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
+  <project path="vendor/pac" name="theapant/android_vendor_pac" />
   <project path="vendor/samsung/ancora_tmo" name="theapant/android_vendor_samsung_ancora_tmo" revision="master"/>
   <project path="vendor/samsung/ancora" name="theapant/android_vendor_samsung_ancora" revision="jellybean"/>
 
