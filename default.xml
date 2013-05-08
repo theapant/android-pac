@@ -47,6 +47,7 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="device/samsung/ancora_tmo" name="android_device_ancora_tmo" remote="theapant" revision="pac" />
+  <project path="device/samsung/ancora" name="android_device_ancora" remote="theapant" revision="pac" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -393,6 +394,8 @@
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
   <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
+  <project path="vendor/samsung/ancora_tmo" name="android_vendor_samsung_ancora_tmo" remote="theapant" revision="master"/>
+  <project path="vendor/samsung/ancora" name="android_vendor_samsung_ancora" remote="theapant" revision="jellybean"/>
 
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
