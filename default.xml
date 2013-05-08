@@ -14,6 +14,12 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="theapant"
+           fetch="git://github.com/theapant/" />
+
+  <remote  name="camcory"
+           fetch="git://github.com/camcory/" />
+
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -40,6 +46,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
+  <project path="device/samsung/ancora_tmo" name="android_device_ancora_tmo" remote="theapant" revision="pac" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -371,7 +378,7 @@
   <!-- PAC -->
   <project path="android" name="PAC-man/android" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
-  <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="theapant" revision="cm-10.1"/>
   <project path="packages/apps/Calculator" name="PAC-man/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
@@ -392,7 +399,7 @@
   </project>
 
   <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="camcory" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="camcory" revision="cm-10.1" />
 
 </manifest>
