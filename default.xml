@@ -402,7 +402,7 @@
   </project>
 
   <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="camcory" revision="cm-10.1" />
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="camcory" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="camcory/android_hardware_qcom_display-legacy" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="camcory/android_hardware_qcom_media-legacy" revision="cm-10.1" />
 
 </manifest>
