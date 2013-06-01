@@ -31,6 +31,7 @@
   <project groups="default" name="CyanogenMod/android_device_google_accessory_arduino" path="device/google/accessory/arduino" />
   <project groups="default" name="CyanogenMod/android_device_google_accessory_demokit" path="device/google/accessory/demokit" />
   <project groups="default" name="CyanogenMod/android_device_sample" path="device/sample" />
+  <project groups="default" name="CyanogenMod/android_device_sony_nypon" path="device/sony/nypon" />
   <project groups="default" name="CyanogenMod/android_device_ti_panda" path="device/ti/panda" />
   <project groups="default" name="CyanogenMod/android_docs_source.android.com" path="docs/source.android.com" />
   <project groups="default" name="CyanogenMod/android_external_aac" path="external/aac" />
@@ -224,6 +225,7 @@
   <project groups="default" name="CyanogenMod/android_libcore" path="libcore" />
   <project groups="default" name="CyanogenMod/android_libnativehelper" path="libnativehelper" />
   <project groups="default" name="CyanogenMod/android_ndk" path="ndk" />
+  <project groups="default" name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" />
   <project groups="default" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" />
   <project groups="default" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
@@ -294,6 +296,7 @@
   <project groups="default" name="CyanogenMod/android_system_vold" path="system/vold" />
   <project groups="default" name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
   <project groups="default" name="CyanogenMod/android_vendor_qcom_opensource_v8" path="vendor/qcom/opensource/v8" />
+  <project groups="default" name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
@@ -337,7 +340,7 @@
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
-  <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
+  <project groups="default" name="theapant/android_vendor_pac" path="vendor/pac" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
