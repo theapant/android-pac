@@ -32,6 +32,7 @@
   <project groups="default" name="CyanogenMod/android_device_google_accessory_demokit" path="device/google/accessory/demokit" />
   <project groups="default" name="CyanogenMod/android_device_sample" path="device/sample" />
   <project groups="default" name="CyanogenMod/android_device_sony_nypon" path="device/sony/nypon" />
+  <project groups="default" name="CyanogenMod/android_device_sony_montblanc-common" path="device/sony/montblanc-common" />
   <project groups="default" name="CyanogenMod/android_device_ti_panda" path="device/ti/panda" />
   <project groups="default" name="CyanogenMod/android_docs_source.android.com" path="docs/source.android.com" />
   <project groups="default" name="CyanogenMod/android_external_aac" path="external/aac" />
