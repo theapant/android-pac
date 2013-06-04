@@ -33,6 +33,8 @@
   <project groups="default" name="CyanogenMod/android_device_sample" path="device/sample" />
   <project groups="default" name="CyanogenMod/android_device_sony_nypon" path="device/sony/nypon" />
   <project groups="default" name="CyanogenMod/android_device_sony_kumquat" path="device/sony/kumquat" />
+  <project groups="default" name="CyanogenMod/android_device_sony_locus" path="device/sony/lotus" />
+  <project groups="default" name="CyanogenMod/android_device_sony_pepper" path="device/sony/pepper" />
   <project groups="default" name="CyanogenMod/android_device_sony_montblanc-common" path="device/sony/montblanc-common" />
   <project groups="default" name="CyanogenMod/android_device_ti_panda" path="device/ti/panda" />
   <project groups="default" name="CyanogenMod/android_docs_source.android.com" path="docs/source.android.com" />
